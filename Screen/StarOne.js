@@ -1,4 +1,4 @@
-import { View ,Text,StyleSheet,ImageBackground , TouchableOpacity,
+import { View ,Text,StyleSheet,
     Image,SafeAreaView,StatusBar} from "react-native";
 import React from 'react'
 

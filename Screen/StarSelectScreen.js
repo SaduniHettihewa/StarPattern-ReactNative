@@ -1,12 +1,9 @@
 import {
     View, Text, StyleSheet,
-    SafeAreaView,
-    ScrollView,
     StatusBar,
     TouchableOpacity
 } from "react-native";
 import React from 'react'
-import { Button } from "react-native-elements";
 
 
 
@@ -24,14 +21,7 @@ const StarSelectionScreen = ({ navigation }) => {
                 >
                     <Text style={{ color: "white", fontWeight: "bold", textAlign: "center" }}> Star Pattern I </Text>
                 </TouchableOpacity >
-                {/* <View>
-                <TouchableOpacity
-                    // onPress={() => navigation.navigate("RolleSelectionScreen")}
-                    style={styles.button2}
-                >
-                    <Text style={{ color: "white", fontWeight: "bold", textAlign: "center",alignContent:"center" }}> Star Pattern II </Text>
-                </TouchableOpacity >
-                </View> */}
+             
 
             </View>
 
